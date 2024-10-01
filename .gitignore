@@ -1,0 +1,13 @@
+﻿logs
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+cypress/videos
+cypress/screenshots
+js/*.js
