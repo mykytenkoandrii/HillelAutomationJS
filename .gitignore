@@ -11,3 +11,5 @@ build/Release
 cypress/videos
 cypress/screenshots
 js/*.js
+node_modules
+package-lock.json
