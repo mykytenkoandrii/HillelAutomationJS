@@ -3,7 +3,7 @@
 // Обчисліть площу кола за формулою π * radius^2 і виведіть результат.
 
 let radius = 4.5;
-let resultSquare = Math.PI * radius** 2;
+let resultSquare = Math.PI * radius ** 2;
 console.log(resultSquare.toFixed(2));
 
 // Завдання 4.2
@@ -13,9 +13,8 @@ console.log(resultSquare.toFixed(2));
 
 let length = 15;
 let width = 10;
-function squareResult(length, width)
-{
-    return length * width;
+function squareResult(length, width) {
+	return length * width;
 }
 
 let square = squareResult(length, width);
@@ -34,9 +33,8 @@ let result = Math.PI * Math.pow(radius, 2) * height;
 
 console.log(result.toFixed(2));
 
-function squareCylinder(radius, height)
-{
-    return Math.PI * Math.pow(radius, 2) * height;
+function squareCylinder(radius, height) {
+	return Math.PI * Math.pow(radius, 2) * height;
 }
 
 let squareCylinderResult = squareCylinder(radius, height);

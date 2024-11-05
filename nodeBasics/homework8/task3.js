@@ -7,8 +7,8 @@
 // Виведіть отриману суму на консоль.
 const array = [10, 20, 30, 40, 50];
 
-function sumArray(array){
-    return array.reduce((sum, num) => sum + num, 0);
+function sumArray(array) {
+	return array.reduce((sum, num) => sum + num, 0);
 }
 
 let result = sumArray(array);

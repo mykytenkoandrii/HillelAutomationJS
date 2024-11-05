@@ -7,9 +7,9 @@
 // Виведіть об'єкт student в консоль.
 
 const student = {};
-student.firstName = "Taras";
-student.lastName = "Shevchenko";
+student.firstName = 'Taras';
+student.lastName = 'Shevchenko';
 student.age = 13;
-student.courses = ["Mathematics", "Graphics", "Ukrainian language"];
+student.courses = ['Mathematics', 'Graphics', 'Ukrainian language'];
 
 console.log(student);

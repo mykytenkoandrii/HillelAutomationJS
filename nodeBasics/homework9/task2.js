@@ -5,11 +5,11 @@
 // Деструктуризуйте назву та автора книги з об'єкта book.
 // Виведіть деструктуризовані змінні в консоль
 
-const book ={
-    title: "Tyhrolovy",
-    author: "Ivan Bahrianyi",
-    year: 1944
-}
+const book = {
+	title: 'Tyhrolovy',
+	author: 'Ivan Bahrianyi',
+	year: 1944,
+};
 console.log(book);
 
 delete book.title;

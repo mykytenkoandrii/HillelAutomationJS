@@ -4,11 +4,11 @@
 // Фунція повинна викликатися, доки num не стане менше або рівне 0.
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
-function outputLoop(num){
-    if(num >= 0){
-        console.log(`Num counter = ${num}`);
-        outputLoop(--num);
-    }
+function outputLoop(num) {
+	if (num >= 0) {
+		console.log(`Num counter = ${num}`);
+		outputLoop(--num);
+	}
 }
 
 outputLoop(5);

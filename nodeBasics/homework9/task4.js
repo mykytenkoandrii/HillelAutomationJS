@@ -7,12 +7,12 @@
 // Виведіть оновлений об'єкт person в консоль.
 
 const person = {
-    firstName: "Joe",
-    lastName: "Biden",
-    age: 81
-}
+	firstName: 'Joe',
+	lastName: 'Biden',
+	age: 81,
+};
 
-person.email = "president@whitehouse.gov";
+person.email = 'president@whitehouse.gov';
 
 delete person.age;
 
