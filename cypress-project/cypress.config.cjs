@@ -2,11 +2,11 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-      baseUrl: "https://example.cypress.io",
+      //baseUrl: "https://qauto.forstudy.space/",
 
       retries: {
         runMode: 2,
-        openMode: 2
+        openMode: 1
       },
 
       defaultCommandTimeout: 10000,
